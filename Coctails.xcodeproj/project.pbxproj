@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312C9054ED5E46D245BEC2B8 /* Pods_Coctails.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69B3D5EDA416363ECD43CA61 /* Pods_Coctails.framework */; };
+		F601476F27F2051F0090DA49 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601476E27F2051F0090DA49 /* NetworkService.swift */; };
+		F601477127F205320090DA49 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F601477027F205320090DA49 /* Model.swift */; };
+		F643D9EF27FCC39F00FF49D9 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F643D9ED27FCC39F00FF49D9 /* CollectionViewCell.swift */; };
+		F643D9F027FCC39F00FF49D9 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F643D9EE27FCC39F00FF49D9 /* CollectionViewCell.xib */; };
+		F69F311127F20458003BCB28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F311027F20458003BCB28 /* AppDelegate.swift */; };
+		F69F311327F20458003BCB28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F311227F20458003BCB28 /* SceneDelegate.swift */; };
+		F69F311527F20458003BCB28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69F311427F20458003BCB28 /* ViewController.swift */; };
+		F69F311827F20458003BCB28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69F311627F20458003BCB28 /* Main.storyboard */; };
+		F69F311A27F20459003BCB28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69F311927F20459003BCB28 /* Assets.xcassets */; };
+		F69F311D27F20459003BCB28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69F311B27F20459003BCB28 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69B3D5EDA416363ECD43CA61 /* Pods_Coctails.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coctails.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25AA85B1386C7147FF10F5E /* Pods-Coctails.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coctails.debug.xcconfig"; path = "Target Support Files/Pods-Coctails/Pods-Coctails.debug.xcconfig"; sourceTree = "<group>"; };
+		C484938B9EC8A6F3A4190CF9 /* Pods-Coctails.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coctails.release.xcconfig"; path = "Target Support Files/Pods-Coctails/Pods-Coctails.release.xcconfig"; sourceTree = "<group>"; };
+		F601476E27F2051F0090DA49 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F601477027F205320090DA49 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F643D9ED27FCC39F00FF49D9 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F643D9EE27FCC39F00FF49D9 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		F69F310D27F20458003BCB28 /* Coctails.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coctails.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F69F311027F20458003BCB28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F69F311227F20458003BCB28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F69F311427F20458003BCB28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F69F311727F20458003BCB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F69F311927F20459003BCB28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F69F311C27F20459003BCB28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F69F311E27F20459003BCB28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F69F310A27F20458003BCB28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312C9054ED5E46D245BEC2B8 /* Pods_Coctails.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FDD995375682A4F4C2E1C10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69B3D5EDA416363ECD43CA61 /* Pods_Coctails.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9DE54D79335684E7B8C9C42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C25AA85B1386C7147FF10F5E /* Pods-Coctails.debug.xcconfig */,
+				C484938B9EC8A6F3A4190CF9 /* Pods-Coctails.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F601477227F3701E0090DA49 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F643D9ED27FCC39F00FF49D9 /* CollectionViewCell.swift */,
+				F643D9EE27FCC39F00FF49D9 /* CollectionViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F69F310427F20458003BCB28 = {
+			isa = PBXGroup;
+			children = (
+				F69F310F27F20458003BCB28 /* Coctails */,
+				F69F310E27F20458003BCB28 /* Products */,
+				B9DE54D79335684E7B8C9C42 /* Pods */,
+				5FDD995375682A4F4C2E1C10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F69F310E27F20458003BCB28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F69F310D27F20458003BCB28 /* Coctails.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F69F310F27F20458003BCB28 /* Coctails */ = {
+			isa = PBXGroup;
+			children = (
+				F601477227F3701E0090DA49 /* Cell */,
+				F69F311027F20458003BCB28 /* AppDelegate.swift */,
+				F69F311227F20458003BCB28 /* SceneDelegate.swift */,
+				F69F311427F20458003BCB28 /* ViewController.swift */,
+				F69F311627F20458003BCB28 /* Main.storyboard */,
+				F69F311927F20459003BCB28 /* Assets.xcassets */,
+				F69F311B27F20459003BCB28 /* LaunchScreen.storyboard */,
+				F69F311E27F20459003BCB28 /* Info.plist */,
+				F601476E27F2051F0090DA49 /* NetworkService.swift */,
+				F601477027F205320090DA49 /* Model.swift */,
+			);
+			path = Coctails;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F69F310C27F20458003BCB28 /* Coctails */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F69F312127F20459003BCB28 /* Build configuration list for PBXNativeTarget "Coctails" */;
+			buildPhases = (
+				B615E99257365A71CBB95994 /* [CP] Check Pods Manifest.lock */,
+				F69F310927F20458003BCB28 /* Sources */,
+				F69F310A27F20458003BCB28 /* Frameworks */,
+				F69F310B27F20458003BCB28 /* Resources */,
+				CE5E38592F189E877644B0AF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coctails;
+			productName = Coctails;
+			productReference = F69F310D27F20458003BCB28 /* Coctails.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F69F310527F20458003BCB28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					F69F310C27F20458003BCB28 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = F69F310827F20458003BCB28 /* Build configuration list for PBXProject "Coctails" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F69F310427F20458003BCB28;
+			productRefGroup = F69F310E27F20458003BCB28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F69F310C27F20458003BCB28 /* Coctails */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F69F310B27F20458003BCB28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F69F311D27F20459003BCB28 /* LaunchScreen.storyboard in Resources */,
+				F69F311A27F20459003BCB28 /* Assets.xcassets in Resources */,
+				F643D9F027FCC39F00FF49D9 /* CollectionViewCell.xib in Resources */,
+				F69F311827F20458003BCB28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B615E99257365A71CBB95994 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coctails-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE5E38592F189E877644B0AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coctails/Pods-Coctails-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Coctails/Pods-Coctails-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Coctails/Pods-Coctails-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F69F310927F20458003BCB28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F601477127F205320090DA49 /* Model.swift in Sources */,
+				F69F311527F20458003BCB28 /* ViewController.swift in Sources */,
+				F643D9EF27FCC39F00FF49D9 /* CollectionViewCell.swift in Sources */,
+				F69F311127F20458003BCB28 /* AppDelegate.swift in Sources */,
+				F601476F27F2051F0090DA49 /* NetworkService.swift in Sources */,
+				F69F311327F20458003BCB28 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F69F311627F20458003BCB28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69F311727F20458003BCB28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F69F311B27F20459003BCB28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F69F311C27F20459003BCB28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F69F311F27F20459003BCB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F69F312027F20459003BCB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69F312227F20459003BCB28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C25AA85B1386C7147FF10F5E /* Pods-Coctails.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T23S64A858;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coctails/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.Coctails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F69F312327F20459003BCB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C484938B9EC8A6F3A4190CF9 /* Pods-Coctails.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T23S64A858;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Coctails/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.Coctails;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F69F310827F20458003BCB28 /* Build configuration list for PBXProject "Coctails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F311F27F20459003BCB28 /* Debug */,
+				F69F312027F20459003BCB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F69F312127F20459003BCB28 /* Build configuration list for PBXNativeTarget "Coctails" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69F312227F20459003BCB28 /* Debug */,
+				F69F312327F20459003BCB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F69F310527F20458003BCB28 /* Project object */;
+}
